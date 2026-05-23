@@ -55,40 +55,39 @@ This project demonstrates real-world backend engineering concepts including auth
 ---
 
 # Project Structure
-
-app/
-│
-├── main.py
-│
-├── routes/
-│   ├── auth_routes.py
-│   └── todo_routes.py
-│
-├── services/
-│   ├── auth_service.py
-│   └── todo_service.py
-│
-├── schemas/
-│   ├── auth_schema.py
-│   └── todo_schema.py
-│
-├── models/
-│   ├── user_model.py
-│   └── todo_model.py
-│
-├── database/
-│   ├── db.py
-│   └── base.py
-│
-├── middleware/
-│   └── logging_middleware.py
-│
-├── core/
-│   ├── config.py
-│   ├── security.py
-│   └── dependencies.py
-│
-└── requirements.txt
+    app/
+    │
+    ├── main.py
+    │
+    ├── routes/
+    │   ├── auth_routes.py
+    │   └── todo_routes.py
+    │
+    ├── services/
+    │   ├── auth_service.py
+    │   └── todo_service.py
+    │
+    ├── schemas/
+    │   ├── auth_schema.py
+    │   └── todo_schema.py
+    │
+    ├── models/
+    │   ├── user_model.py
+    │   └── todo_model.py
+    │
+    ├── database/
+    │   ├── db.py
+    │   └── base.py
+    │
+    ├── middleware/
+    │   └── logging_middleware.py
+    │
+    ├── core/
+    │   ├── config.py
+    │   ├── security.py
+    │   └── dependencies.py
+    │
+    └── requirements.txt
 
 ---
 
